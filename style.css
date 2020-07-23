@@ -13,22 +13,69 @@ h1 span{
 
 .brand{
     color: #ffffff;
+  
+    width: 30%;
+    display: inline;
 }
 
 #navigation{
     background-color: #090909;
     color: #ffffff;
-    padding-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    padding: 30px 100px;
+ 
 
     
     
 }
 
 .nav{
-    
+    display: inline;
+    float: right;
 }
 .nav li{
     display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+ 
+}
+
+.nav li:hover{
+    color: #F8C008 ;
+}
+
+.special{
+    background-color:#F8C008 ;
+    padding: 10px 15px;
+    color: black;
+
+}
+
+.special:hover{
+    background-color:#242322 ;
+}
+
+#banner{
+    background-image: url('img/bg.jpg');
+    min-height: 550px;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+}
+
+#banner h1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 130px;
+    color: #ffffff;
+    margin-top: 10%;
+    text-shadow: rgba(1, 17, 3, 0.767) 7px 7px 10px;
+}
+
+#banner p{
+    background-color: rgba(3, 32, 9, 0.774);
+    padding: 15px 10px;
+    color: #ffffff;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: -80px;
 }
