@@ -81,12 +81,11 @@ h1 span{
     margin-top: -80px;
 }
 
-.container {
+.container{
     padding-top: 50px;
-  
-    padding-bottom: 100px;
-    width: 80%;
-    margin: auto;
+      padding-bottom: 100px;
+      width: 80%;
+      margin: auto;
 }
 
 #about {
@@ -107,3 +106,19 @@ h1 span{
    width: 100%;
 }
 
+hr{
+    margin: 120px 0px;
+
+}
+#tour{
+text-align: center;
+}
+#footer{
+    background-color: #467A1E;
+    text-align: center;
+    height: 80px;
+}
+ 
+#footer h1{
+    line-height: 80px;
+}
