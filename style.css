@@ -122,3 +122,12 @@ text-align: center;
 #footer h1{
     line-height: 80px;
 }
+
+.navMobile{
+    display: none
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
