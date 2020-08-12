@@ -123,11 +123,17 @@ text-align: center;
     line-height: 80px;
 }
 
-.navMobile{
-    display: none
-}
+
 
 a{
     color: #ffffff;
     text-decoration: none;
+}
+
+
+#mobMenu{
+    display: none;
+}
+.navMobile{
+    display: none;
 }

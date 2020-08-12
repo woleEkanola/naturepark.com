@@ -1,0 +1,37 @@
+
+.navMobile {
+    display: block;
+    margin-left: -200%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: #00000094;
+    height: 100vh;
+    color: #ffffff;
+    padding: 0px;
+    padding-top: 80px;
+    transition: cubic-bezier(1,.03,.05,1.41) 800ms 200ms ;
+}
+.navMobile li{
+    list-style: none;
+    padding: 20px 30px;
+    background-color: #00000094;
+    margin-bottom: 2px;
+}
+
+#mobMenu{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0; 
+    width:50px;
+    margin-right: 40px;
+    margin-top: 100px;
+    opacity: 70%;
+}
+
+.showNavMobile{
+    margin-left: 0px;
+}
